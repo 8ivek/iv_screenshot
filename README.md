@@ -1,1 +1,1 @@
-# iv_screenshot
+Wordpress Screenshot Plugin
