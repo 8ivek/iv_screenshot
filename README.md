@@ -1,1 +1,1 @@
-Wordpress Screenshot Plugin
+Wordpress Screenshot Plugin based on html2canvas.js
