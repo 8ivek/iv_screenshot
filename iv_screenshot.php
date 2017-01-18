@@ -39,7 +39,6 @@ function iv_make_img() {
 add_action('wp_enqueue_scripts', 'iv_makeimg_scripts');
 
 function iv_makeimg_scripts(){
-    wp_enqueue_script('html2canvas', plugins_url('/js/html2canvas.js', __FILE__), array(), '1.0.0', true);
-    wp_enqueue_script('plugin-html2canvas', plugins_url('/js/jquery.plugin.html2canvas.js', __FILE__), array(), '1.0.0', true);
+    wp_enqueue_script('iv-scripts', plugins_url('/dist/scripts/scripts.js', __FILE__), array(), '1.0.0', true);
 }
 ?>

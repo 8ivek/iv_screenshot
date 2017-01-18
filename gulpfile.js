@@ -10,7 +10,7 @@ gulp.task('default', function(){
 });
 
 //script paths
-var jsFiles = 'assets/scripts/**/*.js',
+var jsFiles = 'assets/scripts/*.js',
     jsDest = 'dist/scripts';
 
 gulp.task('scripts', function() {
