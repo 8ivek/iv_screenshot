@@ -14,7 +14,7 @@ add_shortcode('wp_make_img', 'iv_make_img');
 
 function iv_make_img() {
     $wp_make_img_link="
-            <button title='Takes Screenshot and Open it in new tab' class='iv_link_make_image' onclick='capture()'>Open Screenshot</button>
+            <a title='Takes Screenshot and Open it in new tab' href='javascript:;' class='iv_link_make_image' onclick='capture()'>Open Screenshot</a>
             <script type='text/javascript'>
             function capture(){
                 jQuery('body').html2canvas({
